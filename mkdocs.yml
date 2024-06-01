@@ -1,0 +1,4 @@
+site_name: 书籍推荐网
+site_url: https://Salvely.github.io/books-reco
+theme:
+  name: material
