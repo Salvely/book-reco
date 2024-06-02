@@ -1,4 +1,39 @@
-site_name: 书籍推荐网
-site_url: https://Salvely.github.io/books-reco
+site_name: 教材选择指南
+site_url: https://Salvely.github.io/book-reco
 theme:
   name: material
+  language: zh
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - navigation.instant # 启用 instant loading(必须设置site_url)
+    - navigation.instant.prefetch # 用户悬停在链接上就开始加载页面
+    - navigation.instant.progress # 显示页面加载进度
+    - toc.follow # 边栏自动滚动
+    - toc.integrate # 目录导航集成
+    - navigation.top # 回到顶部按钮
+    - navigation.footer # 在页脚添加上一页和下一页的链接
+    - search.suggest # 开启搜索提示
+    - search.highlight # 搜索突出显示
+  custom_dir: overrides
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: 繁体中文
+      link: /hant/
+      lang: zh-Hant
+  social:
+    - icon: simple/github
+      link: https://salvely.github.io/book-reco
+      name: book-reco
+  generator: true # 展示网站的生成方式
+plugins:
+  - search
+copyright: Copyright &copy; 2024 - 2025 Wen Gao # 版权声明
+repo_url: https://github.com/Salvely/book-reco # 设置github仓库（或其他仓库）链接
+repo_name: salvely/book-reco # 自定义的仓库名称
