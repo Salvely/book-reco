@@ -16,17 +16,6 @@ theme:
     - search.suggest # 开启搜索提示
     - search.highlight # 搜索突出显示
   custom_dir: overrides
-extra:
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: Deutsch
-      link: /de/
-      lang: de
-    - name: 繁体中文
-      link: /hant/
-      lang: zh-Hant
   social:
     - icon: simple/github
       link: https://salvely.github.io/book-reco
